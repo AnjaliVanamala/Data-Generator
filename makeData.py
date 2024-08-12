@@ -51,7 +51,21 @@ def find_day(td, tm, sam):
     return day
 
 """
-make_taxa, FIGURE OUT WHAT THIS IS DOING.
+make_taxa, generates the taxa counts given all previous information. 
+sub = # of subjects 
+sam = # of samples
+t = the treatment 
+day = list of days 
+psm1 = percentage of samples in treatment 1
+z1 = list of indexes that should be zeroes 
+types1 = type of curve (see types in calc_curve) for treatment 1 
+types2 = type of curve for treatment 2
+slope1 = "a" value of curve 1 
+slope2 = "a" value of curve 2
+varc1 = type of curve for variability for treatment 1
+varc2 = type of curve for variability for treatment 2
+vars1 = "a" value of variability curve 1
+vars2 = "a" value of variability curve 2
 """
 def make_taxa(sub, sam, t, day, psm1, z1, types1, types2, slope1, slope2, varc1, varc2, vars1, vars2):
     line1 = calc_curve(types1, slope1, sam)
