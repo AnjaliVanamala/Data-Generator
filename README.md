@@ -12,4 +12,17 @@ The "file" input should be changed to the name of the output file you are expect
 Other variable names and their meanings are: <br>
 sub = number of subjects <br>
 sam = number of times a sample is taken from each subject 
-types1 = type of curve for treatment 1 (0 indicates a horizontal line, 1 is linear, 2 is exponential, and 3 is logarithmic.) 
+types1 = type of curve for treatment 1 (0 indicates a horizontal line, 1 is linear, 2 is exponential, and 3 is logarithmic.) <br>
+slope1
+types2
+slope2
+varc1
+vars1
+varc2
+vars2
+ts
+noise
+tm
+psm1
+pz1
+
